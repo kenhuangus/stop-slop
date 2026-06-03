@@ -18,15 +18,17 @@ Eliminate predictable AI writing patterns from prose.
 
 3. **Use active voice.** Every sentence needs a human subject doing something. No passive constructions. No inanimate objects performing human actions ("the complaint becomes a fix").
 
-4. **Be specific.** No vague declaratives ("The reasons are structural"). Name the specific thing. No lazy extremes ("every," "always," "never") doing vague work.
+4. **Be specific.** No vague declaratives ("The reasons are structural"). Name the specific thing. No lazy extremes ("every," "always," "never") doing vague work. No inflated claims ("comprehensive," "full," "robust," "powerful," "seamless," "crucial," "vast"). Name the number or the scope. See [references/phrases.md](references/phrases.md).
 
 5. **Put the reader in the room.** No narrator-from-a-distance voice. "You" beats "People." Specifics beat abstractions.
 
-6. **Vary rhythm.** Mix sentence lengths. Two items beat three. End paragraphs differently. No em dashes.
+6. **Vary rhythm.** Mix sentence lengths. Two items beat three. End paragraphs differently. No dashes joining clauses: no em-dashes, en-dashes, or hyphens standing in for a dash. Rewrite as two sentences or use a comma. Keep genuine compound words (em-dash, throat-clearing).
 
-7. **Trust readers.** State facts directly. Skip softening, justification, hand-holding.
+7. **No section separators.** Drop horizontal rules ("---") between sections. A heading or a blank line ends a section.
 
-8. **Cut quotables.** If it sounds like a pull-quote, rewrite it.
+8. **Trust readers.** State facts directly. Skip softening, justification, hand-holding.
+
+9. **Cut quotables.** If it sounds like a pull-quote, rewrite it.
 
 ## Quick Checks
 
@@ -40,7 +42,9 @@ Before delivering prose:
 - Any "not X, it's Y" contrasts? State Y directly.
 - Three consecutive sentences match length? Break one.
 - Paragraph ends with punchy one-liner? Vary it.
-- Em-dash anywhere? Remove it.
+- Any dash joining clauses (em-dash, en-dash, hyphen-as-dash)? Split the sentence or use a comma.
+- Horizontal rule ("---") between sections? Delete it. A heading ends the section.
+- Word claiming size or coverage ("comprehensive," "full," "robust," "vast")? Replace it with the number or the named scope. If you cannot name one, cut the sentence.
 - Vague declarative ("The implications are significant")? Name the specific implication.
 - Narrator-from-a-distance ("Nobody designed this")? Put the reader in the scene.
 - Meta-joiners ("The rest of this essay...")? Delete. Let the essay move.

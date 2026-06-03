@@ -10,8 +10,6 @@
 
 **Changes:** Removed opener, binary contrast structure, and emphasis crutch. Direct statements.
 
----
-
 ## Example 2: Filler + Unnecessary Reassurance
 
 **Before:**
@@ -22,8 +20,6 @@
 
 **Changes:** Cut hedging ("most"), removed throat-clearing phrases, deleted permission-granting ending.
 
----
-
 ## Example 3: Business Jargon Stack
 
 **Before:**
@@ -32,9 +28,7 @@
 **After:**
 > "Move faster. Your competition is."
 
-**Changes:** Eliminated jargon entirely. Core message in six words.
-
----
+**Changes:** Cut the jargon. Core message in six words.
 
 ## Example 4: Dramatic Fragmentation
 
@@ -42,11 +36,9 @@
 > "Speed. Quality. Cost. You can only pick two. That's it. That's the tradeoff."
 
 **After:**
-> "Speed, quality, cost—pick two."
+> "Pick two of speed, quality, cost."
 
-**Changes:** Single sentence. No performative emphasis.
-
----
+**Changes:** Single sentence. No dash, no performative emphasis.
 
 ## Example 5: Rhetorical Setup
 

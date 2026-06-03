@@ -126,3 +126,21 @@ Sentences that announce importance without naming the specific thing. Kill these
 - "The consequences are real"
 
 If a sentence says something is important/deep/structural without showing the specific thing, cut it or replace it with the specific thing.
+
+## Inflated Claims
+
+Words that claim size, coverage, or quality without naming the fact behind them. An inflated word is a placeholder for evidence the writer never supplied. Do not swap one for a plainer synonym ("comprehensive" for "full"). The synonym keeps the placeholder. Delete the word and write the fact, or cut the sentence.
+
+These words go in the avoid column. None of them belongs in the replace column.
+
+| Avoid | Replace with |
+|-------|-------------|
+| comprehensive, full, complete, exhaustive | the scope: "covers all 12 endpoints," "every error path" |
+| robust, powerful, advanced | what it does: "retries 3 times," "renders 1M rows" |
+| seamless, effortless, intuitive | the absence: "no config," "one command" |
+| crucial, essential, critical, vital, key | needed, or the cost of skipping it |
+| vast, immense, massive, huge | the number |
+| game-changing, revolutionary, cutting-edge, world-class, best-in-class, state-of-the-art | drop it; show the result |
+| significant, substantial, considerable | the measurement |
+
+Rule: a word claiming size or coverage is a fact you owe the reader. Name the number or the scope. If you cannot name one, cut the sentence.
