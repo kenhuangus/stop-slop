@@ -144,3 +144,5 @@ These words go in the avoid column. None of them belongs in the replace column.
 | significant, substantial, considerable | the measurement |
 
 Rule: a word claiming size or coverage is a fact you owe the reader. Name the number or the scope. If you cannot name one, cut the sentence.
+
+For a wider scan list of slop words by category, see [slop-words.md](slop-words.md).

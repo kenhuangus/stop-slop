@@ -63,6 +63,10 @@ Rate 1-10 on each dimension:
 
 Below 35/50: revise.
 
+## Word Bank
+
+See [references/slop-words.md](references/slop-words.md) for a scan list of ~850 slop words and phrases, grouped by type (verbs, inflated adjectives, template intros, buzzwords, metaphors, padding).
+
 ## Examples
 
 See [references/examples.md](references/examples.md) for before/after transformations.
