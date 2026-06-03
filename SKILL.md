@@ -65,7 +65,7 @@ Below 35/50: revise.
 
 ## Word Bank
 
-See [references/slop-words.md](references/slop-words.md) for a scan list of ~850 slop words and phrases, grouped by type (verbs, inflated adjectives, template intros, buzzwords, metaphors, padding).
+See [references/slop-words.md](references/slop-words.md) for a scan list of slop words and phrases in two tiers: Tier 1 (hard ban, cut on sight) and Tier 2 (flag in context, real words that turn to slop when empty or stacked).
 
 ## Examples
 
