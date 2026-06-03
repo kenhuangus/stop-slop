@@ -10,6 +10,18 @@ metadata:
 
 Eliminate predictable AI writing patterns from prose.
 
+## Usage
+
+The Core Rules and Quick Checks below are self-contained. Apply them directly. They cover most edits without any other file.
+
+Read a reference only when you need it:
+
+- phrases.md and structures.md: the full pattern lists, when a check is ambiguous.
+- slop-words.md: a deep clean. Read Tier 1 first. Read Tier 2 only for an aggressive pass.
+- examples.md: when you want a before/after model.
+
+Do not load all references on every run. That is the main cost of this skill.
+
 ## Core Rules
 
 1. **Cut filler phrases.** Remove throat-clearing openers, emphasis crutches, and all adverbs. See [references/phrases.md](references/phrases.md).
