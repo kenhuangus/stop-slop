@@ -107,6 +107,7 @@ Include `SKILL.md` in your model's system prompt or reference files.
 ### Pillar 1: Prose and Documentation
 * **Eliminate throat-clearing**: Delete openers like "Here's the thing", "In today's fast-paced world", "It turns out that", "Let's dive in", and "At its core".
 * **Cut adverbs**: Remove all adverbs. Use concrete verbs.
+* **Active voice strictly enforced**: Unless it is absolutely necessary and makes sense, write only active sentences and zero passive sentences. Ensure every sentence has an explicit subject performing the action.
 * **Zero metaphors and zero direct analogies**: No metaphor or direct analogy should be used in any sentence. Avoid figurative comparisons, spatial metaphors, and pedagogical analogies ("think of X as Y", "navigating a maze", "building a bridge between systems"). State literal facts and technical mechanisms directly.
 * **State assertions directly**: Eliminate artificial binary contrasts ("Not X, but Y") and rhetorical questions.
 * **Ban connecting dashes**: Do not use em-dashes (`—`) or en-dashes to join clauses. Use periods or commas.

@@ -111,16 +111,17 @@ Floating above the scene instead of putting the reader in it.
 
 ## Passive Voice
 
-Every sentence needs a subject doing something. Passive voice hides the actor and drains energy.
+Unless it is absolutely necessary and makes sense, write only active sentences and zero passive sentences. Passive voice hides the actor, obscures accountability, and weakens technical precision. Every sentence needs an explicit subject performing the action.
 
-| Pattern | Fix |
-|---------|-----|
-| "X was created" | Name who created it |
-| "It is believed that" | Name who believes it |
-| "Mistakes were made" | Name who made them |
-| "The decision was reached" | Name who decided |
+| Passive Pattern | Problem | Active Replacement |
+|---|---|---|
+| "X was created" | Conceals who built X | "Engineering built X" |
+| "It is believed that" | Hedging without an owner | "The security team concluded that" |
+| "Mistakes were made" | Evasion of responsibility | "The deployment script failed due to an unhandled null check" |
+| "The decision was reached" | Passive committee speak | "The architecture council chose PostgreSQL" |
+| "The request is processed by" | Indirect processing flow | "The worker node processes the incoming queue request" |
 
-**Instead:** Find the actor. Put them at the front of the sentence.
+**Instead:** Identify the human, system, or process executing the action. Place the actor at the front of the sentence. Reserve passive construction exclusively for cases where the actor is genuinely unknown, structurally irrelevant, or where active voice creates syntactic nonsense.
 
 ## Sentence Starters to Avoid
 

@@ -4,6 +4,7 @@ Always adhere to the Stop Slop standard across all tasks:
 
 ## 1. Prose and Chat Responses
 - Zero metaphors and direct analogies: No metaphor or direct analogy should be used in any sentence. Explain technical relationships and facts directly and literally.
+- Unless it is absolutely necessary and makes sense, write only active sentences and zero passive sentences. Ensure every sentence has an explicit subject performing the action.
 - Eliminate conversational throat-clearing openers ("Certainly! Here is...", "Let's unpack this", "In today's fast-paced world").
 - Avoid empty buzzwords (delve, elevate, seamless, robust, holistic, paradigm).
 - State facts directly. Do not use artificial binary contrasts ("Not X, but Y") or rhetorical setups.

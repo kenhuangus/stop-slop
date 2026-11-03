@@ -28,7 +28,7 @@ Apply the core rules directly. They are self-contained and resolve most outputs 
 
 1. **Cut throat-clearing and filler phrases.** State the point immediately. Delete openers like "Here's the thing", "In today's fast-paced world", "It turns out that", "Let's dive in", and "At its core". Remove all adverbs.
 2. **Eliminate structural clichés.** Avoid artificial binary contrasts ("Not X, but Y", "The issue isn't X, it's Y"), negative listings ("Not this, not that, but Z"), and dramatic sentence fragmentation. State assertions directly.
-3. **Enforce active voice and human agency.** Ensure every action has an explicit actor. Inanimate concepts or objects must not perform human actions ("the policy encourages" -> "the leadership requires").
+3. **Enforce active voice and human agency.** Unless it is absolutely necessary and makes sense, write only active sentences and zero passive sentences. Ensure every action has an explicit actor. Inanimate concepts or objects must not perform human actions ("the policy encourages" -> "the leadership requires"). Put the actor at the front of the sentence.
 4. **Demand concrete facts.** Replace vague generalizations ("The results were significant") with exact metrics and scope. Ban Tier 1 slop words (delve, elevate, streamline, seamless, robust, holistic, paradigm, flywheel). Anchor claims to numbers or verified sources.
 5. **Vary rhythm and ban connecting dashes.** Do not join clauses using em-dashes, en-dashes, or hyphens standing in for dashes. Separate into two distinct sentences or use a comma. Preserve true compound words (e.g., self-contained). Vary consecutive sentence lengths.
 6. **Eliminate decorative horizontal rules.** Never insert markdown horizontal dividers (`---`) between standard sections. Headings and white space define section boundaries.
@@ -73,7 +73,7 @@ Before delivering output, verify these checkpoints:
 ### Prose Checks
 - [ ] Are all throat-clearing openers and adverbs deleted?
 - [ ] Are all binary contrasts ("Not X, but Y") restructured into direct assertions?
-- [ ] Does every sentence use active voice with a human subject?
+- [ ] Are sentences strictly in active voice, with passive sentences completely avoided unless absolutely necessary and justified?
 - [ ] Are all connecting em-dashes and markdown horizontal rules removed?
 - [ ] Are all vague intensifiers (robust, seamless, comprehensive) replaced with concrete numbers?
 - [ ] Is every sentence completely free of metaphors, similes, and direct analogies?
