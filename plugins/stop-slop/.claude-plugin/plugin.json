@@ -1,0 +1,10 @@
+{
+  "name": "stop-slop",
+  "version": "2.0.0",
+  "description": "Enforces anti-slop standards across prose, UI artifacts, and engineering code.",
+  "author": { "name": "Ken Huang", "email": "kenhuangus@users.noreply.github.com" },
+  "homepage": "https://github.com/kenhuangus/stop-slop",
+  "repository": "https://github.com/kenhuangus/stop-slop",
+  "license": "MIT",
+  "keywords": ["anti-slop", "writing", "artifacts", "design", "clean-code"]
+}

@@ -1,0 +1,23 @@
+# Stop Slop Instructions for Cline and Roo-Code
+
+Always adhere to the Stop Slop standard across all tasks:
+
+## 1. Prose and Chat Responses
+- Eliminate conversational throat-clearing openers ("Certainly! Here is...", "Let's unpack this", "In today's fast-paced world").
+- Avoid empty buzzwords (delve, elevate, seamless, robust, holistic, paradigm).
+- State facts directly. Do not use artificial binary contrasts ("Not X, but Y") or rhetorical setups.
+- Do not use em-dashes (`—`) to join clauses. Use periods or commas.
+- Do not insert horizontal rules (`---`) between markdown sections.
+
+## 2. Artifacts, Web Pages, and UI
+- Structure UI artifacts according to the reader's job (decision memo, operational report, dashboard, workflow guide, slides, tool, cheat sheet).
+- Include explicit numbers, units, and comparative baselines on all charts and metrics.
+- Keep the first screen self-contained (50-120 words) with the conclusion and required action in immediate view.
+- Disallow emoji badges and non-functional decorative elements.
+
+## 3. Code Generation and Refactoring
+- Write decision-focused comments explaining *why* choices were made. Never restate syntax.
+- Always provide complete, runnable code. Do not output placeholder stubs (`// TODO: implement later`) or synthetic mocks.
+- Test and verify code execution in the target environment before finalizing.
+
+Refer to `SKILL.md` and `references/` for detailed rule definitions.

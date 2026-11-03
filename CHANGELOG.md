@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-11-03
+
+### Added
+- **Unified 3-Pillar Anti-Slop Architecture**: Integrated prose anti-slop with visual UI/artifact anti-slop and source code engineering anti-slop.
+- **Visual Artifact Standards (`references/artifacts.md`)**: Added job-to-form taxonomy, 10 core design rules, density limits, standard CSS palette, and web version deployment guidelines (integrated and adapted from Ruben Hassid's `noslop`).
+- **Code Anti-Slop Standards (`references/code.md`)**: Added standards for decision-focused comments, complete runnable implementations (no placeholder `TODO` stubs or synthetic mocks), minimal architecture, and verified execution.
+- **Standalone Reference Artifacts (`examples/`)**: Imported 9 HTML templates (decision page, monthly report, hiring dashboard, fixed dashboard, expense guide, pitch slides, deal pricer, support cheat sheet, and sloppy dashboard anti-pattern), stripped of telemetry/frame-runtime sandbox bloat.
+- **Multi-Agent Configuration Adapters**:
+  - Claude Code: `.claude-plugin/marketplace.json` and `plugins/stop-slop/.claude-plugin/plugin.json`.
+  - Cursor & OpenAI Codex: `.cursor/rules/stop-slop.mdc`.
+  - Cline & Roo-Code: `.clinerules`.
+  - Universal Coding Agents (agy, Codex, open assistants): `AGENTS.md`.
+
+### Changed
+- Refactored all previous naming to standard `stop-slop`.
+- Expanded `SKILL.md` to cover prose, visual artifacts, and code engineering with quick checklists and a 50-point evaluation scoring matrix.
+- Enriched `references/examples.md` with visual artifact and source code before/after transformations.
+
 ## 2026-01-13
 
 ### Added

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "stop-slop",
+  "description": "Comprehensive anti-slop standard to eliminate prose tells, UI/artifact clutter, and coding agent stubs.",
+  "owner": {
+    "name": "Ken Huang",
+    "email": "kenhuangus@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "stop-slop",
+      "source": "./plugins/stop-slop",
+      "description": "Enforces anti-slop standards across prose, UI artifacts, and engineering code.",
+      "version": "2.0.0",
+      "author": { "name": "Ken Huang", "email": "kenhuangus@users.noreply.github.com" },
+      "homepage": "https://github.com/kenhuangus/stop-slop",
+      "repository": "https://github.com/kenhuangus/stop-slop",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["anti-slop", "prose", "artifacts", "design", "coding-agents", "clean-code"]
+    }
+  ]
+}
