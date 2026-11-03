@@ -32,6 +32,24 @@ These add no meaning. Delete them.
 - "Make no mistake"
 - "Here's why that matters"
 
+## Metaphorical and Analogical Openers
+
+No metaphor or direct analogy should be used in any sentence. Remove figurative prompts, spatial metaphors, and pedagogical analogies. State technical facts and operational realities directly.
+
+- "Think of [X] as"
+- "It's like a [X]"
+- "Imagine a world where"
+- "Picture this:"
+- "In the realm of"
+- "At the crossroads of"
+- "The glue that holds [X] together"
+- "A double-edged sword"
+- "The silver bullet" / "The magic bullet"
+- "Connecting the dots"
+- "Building bridges between"
+- "Navigating the maze of"
+- "Treating servers like cattle"
+
 ## Business Jargon
 
 Replace with plain language.

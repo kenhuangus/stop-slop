@@ -9,6 +9,7 @@ alwaysApply: true
 Apply the Stop Slop standard to all generated prose, user interfaces, and code changes in this workspace:
 
 1. **Prose and Explanations**:
+   - Zero metaphors and zero direct analogies: No metaphor or direct analogy should be used in any sentence. State facts and technical mechanisms literally and directly.
    - Cut throat-clearing openers ("Here's what I did", "In today's fast-paced world", "Let's dive in", "It turns out").
    - Eliminate all adverbs and empty intensifiers (delve, elevate, streamline, seamless, robust, holistic).
    - Never use connecting em-dashes (`—`) or hyphens standing in for dashes. Separate into two sentences or use commas.

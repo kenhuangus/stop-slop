@@ -8,7 +8,7 @@ A universal anti-slop standard for autonomous coding agents and language models 
 
 Large language models and coding agents produce predictable patterns of low-substance output ("slop"). This repository provides a unified standard and executable agent skills to detect and eliminate slop across three primary domains:
 
-1. **Prose and Technical Documentation**: Eliminates throat-clearing openers, empty intensifiers, formulaic binary contrasts, connecting em-dashes, and passive voice.
+1. **Prose and Technical Documentation**: Eliminates throat-clearing openers, empty intensifiers, formulaic binary contrasts, connecting em-dashes, passive voice, and all metaphors/analogies.
 2. **Visual Artifacts and User Interfaces**: Eliminates cluttered layouts, emoji badges, unanchored metrics, fake non-functional buttons, and wall-of-text artifacts. Enforces structured layouts tailored to the reader's operational objective.
 3. **Source Code and Engineering**: Eliminates trivial syntax-restating comments, placeholder stubs (`// TODO: implement later`), synthetic mocks in production paths, and unnecessary boilerplate.
 
@@ -38,7 +38,7 @@ stop-slop/
 │               └── SKILL.md         # Mirrored skill for plugin packaging
 ├── references/
 │   ├── phrases.md                   # Prose: Banned openers, filler, and throat-clearing
-│   ├── structures.md                # Prose: Structural clichés and binary contrasts
+│   ├── structures.md                # Prose: Structural clichés, binary contrasts, and zero-metaphor rules
 │   ├── slop-words.md                # Prose: Two-tier slop word bank (~850 words)
 │   ├── artifacts.md                 # Artifacts/UI: Job-to-form taxonomy, 10 design rules, CSS style kit
 │   ├── code.md                      # Code: Decision-focused comments and runnable implementation standards
@@ -107,6 +107,7 @@ Include `SKILL.md` in your model's system prompt or reference files.
 ### Pillar 1: Prose and Documentation
 * **Eliminate throat-clearing**: Delete openers like "Here's the thing", "In today's fast-paced world", "It turns out that", "Let's dive in", and "At its core".
 * **Cut adverbs**: Remove all adverbs. Use concrete verbs.
+* **Zero metaphors and zero direct analogies**: No metaphor or direct analogy should be used in any sentence. Avoid figurative comparisons, spatial metaphors, and pedagogical analogies ("think of X as Y", "navigating a maze", "building a bridge between systems"). State literal facts and technical mechanisms directly.
 * **State assertions directly**: Eliminate artificial binary contrasts ("Not X, but Y") and rhetorical questions.
 * **Ban connecting dashes**: Do not use em-dashes (`—`) or en-dashes to join clauses. Use periods or commas.
 * **Eliminate divider lines**: Drop markdown horizontal rules (`---`) between sections. Let headings define structure.

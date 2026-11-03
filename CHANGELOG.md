@@ -3,6 +3,7 @@
 ## 2026-11-03
 
 ### Added
+- **Zero-Metaphor and Zero-Analogy Rule**: Strictly prohibited the use of metaphors, similes, and direct analogies in any sentence across all prose and agent responses. Added dedicated structural analysis, phrase scan lists, and before/after transformation models.
 - **Unified 3-Pillar Anti-Slop Architecture**: Integrated prose anti-slop with visual UI/artifact anti-slop and source code engineering anti-slop.
 - **Visual Artifact Standards (`references/artifacts.md`)**: Added job-to-form taxonomy, 10 core design rules, density limits, standard CSS palette, and web version deployment guidelines (integrated and adapted from Ruben Hassid's `noslop`).
 - **Code Anti-Slop Standards (`references/code.md`)**: Added standards for decision-focused comments, complete runnable implementations (no placeholder `TODO` stubs or synthetic mocks), minimal architecture, and verified execution.

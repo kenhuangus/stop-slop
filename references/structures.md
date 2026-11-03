@@ -63,6 +63,23 @@ These announce insight rather than deliver it.
 | "By the time X, I was Y." | Narrative template |
 | "X that isn't Y" | Indirect. Say "X is broken" |
 
+## Metaphors and Direct Analogies
+
+No metaphor or direct analogy should be used in any sentence. AI models default to physical analogies, spatial metaphors, and pedagogical comparisons when they lack technical specificity or seek to display decorative style. Metaphors obscure technical reality and force the reader to decode the writer's figurative phrasing.
+
+| Pattern to Avoid | Problem | Instead (State the Literal Mechanism) |
+|---|---|---|
+| "Think of [X] as a [Y]" (e.g., "Think of the API as a waiter") | Pedagogical condescension; imprecise mapping | "The API routes client HTTP requests to backend data services." |
+| "It's like [analogy]" (e.g., "Like tuning an engine") | Decorative distraction | "Adjusting the hyperparameters reduces inference latency by 14%." |
+| "Building a bridge between [A] and [B]" | Vague spatial metaphor | "Implementing an event-driven Kafka stream between billing and CRM." |
+| "Navigating the maze / landscape of [X]" | Cliché journey metaphor | "Evaluating deployment trade-offs across four Kubernetes clusters." |
+| "Data is the new oil / currency" | Grand decorative cliché | "Aggregated telemetry identifies system bottlenecks." |
+| "The glue that holds [X] together" | Physical material metaphor | "The central orchestration service coordinates worker tasks." |
+| "Treating servers like cattle, not pets" | Anthropomorphic analogy | "Provisioning stateless server nodes with immutable container images." |
+| "At the crossroads of [X] and [Y]" | Spatial cliché | "Integrating computer vision models into manufacturing assembly lines." |
+
+**Instead:** Describe the exact operational fact, protocol, data structure, or actor. If a literal expression communicates the idea, use it exclusively.
+
 ## False Agency
 
 Giving inanimate things human verbs. Complaints don't "become" fixes. Bets don't "live or die." Decisions don't "emerge." A person does something to make those things happen. AI loves this because it avoids naming the actor.

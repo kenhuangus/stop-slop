@@ -9,7 +9,7 @@ metadata:
 # Stop Slop
 
 A universal anti-slop standard for coding agents and language models. Eliminates predictable AI patterns across three domains:
-1. **Prose and Documentation**: Throat-clearing, filler phrases, structural clichés, passive voice, and empty intensifiers.
+1. **Prose and Documentation**: Throat-clearing, filler phrases, structural clichés, passive voice, empty intensifiers, and metaphors/analogies.
 2. **Visual Artifacts and User Interfaces**: Cluttered layouts, fake buttons, emoji badges, unanchored metrics, and walls of text.
 3. **Source Code and Engineering**: Syntax-restating comments, placeholder stubs, fake mock objects in production paths, and unnecessary boilerplate.
 
@@ -32,6 +32,7 @@ Apply the core rules directly. They are self-contained and resolve most outputs 
 4. **Demand concrete facts.** Replace vague generalizations ("The results were significant") with exact metrics and scope. Ban Tier 1 slop words (delve, elevate, streamline, seamless, robust, holistic, paradigm, flywheel). Anchor claims to numbers or verified sources.
 5. **Vary rhythm and ban connecting dashes.** Do not join clauses using em-dashes, en-dashes, or hyphens standing in for dashes. Separate into two distinct sentences or use a comma. Preserve true compound words (e.g., self-contained). Vary consecutive sentence lengths.
 6. **Eliminate decorative horizontal rules.** Never insert markdown horizontal dividers (`---`) between standard sections. Headings and white space define section boundaries.
+7. **Zero metaphors and zero direct analogies.** No metaphor or direct analogy should be used in any sentence. Avoid figurative comparisons, explanatory analogies ("think of X as Y", "like a waiter in a restaurant"), physical metaphors ("building bridges", "navigating landscapes", "uncharted waters", "the glue holding systems together"), and anthropomorphic clichés ("treating servers like cattle"). State technical mechanisms, operational relationships, and facts literally and directly.
 
 ---
 
@@ -75,6 +76,7 @@ Before delivering output, verify these checkpoints:
 - [ ] Does every sentence use active voice with a human subject?
 - [ ] Are all connecting em-dashes and markdown horizontal rules removed?
 - [ ] Are all vague intensifiers (robust, seamless, comprehensive) replaced with concrete numbers?
+- [ ] Is every sentence completely free of metaphors, similes, and direct analogies?
 
 ### Artifact and UI Checks
 - [ ] Does the visual layout match the reader's functional job?

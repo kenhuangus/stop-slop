@@ -66,9 +66,21 @@ Demonstrations of transforming AI slop across prose, visual artifacts, and code 
 
 ---
 
+### Example 6: Metaphors and Direct Analogies
+
+**Before (AI Slop):**
+> "Think of our authentication gateway as a bouncer at an exclusive nightclub. It checks your credentials at the door to keep bad actors from crashing the party, while rolling out the red carpet for VIP users. It's the glue holding our entire architecture together as we navigate uncharted security waters."
+
+**After (Clean):**
+> "The authentication gateway validates JWT bearer tokens on all incoming HTTP requests. Valid tokens grant access to authorized route scopes; invalid or expired tokens return HTTP 401 Unauthorized."
+
+**Changes:** Removed figurative comparisons and analogies ("bouncer at a nightclub", "crash the party", "rolling out the red carpet", "glue holding architecture together", "navigating uncharted waters"). Described the concrete protocol, validation logic, and exact HTTP response code directly.
+
+---
+
 ## 2. Visual Artifact and UI Transformations
 
-### Example 6: Cluttered Metric Dashboard
+### Example 7: Cluttered Metric Dashboard
 
 **Before (Visual Slop - see [examples/sloppy-dashboard.html](../examples/sloppy-dashboard.html)):**
 * Title: "Welcome back, Team! 👋 Your AI-powered growth command center 🚀"
@@ -88,7 +100,7 @@ Demonstrations of transforming AI slop across prose, visual artifacts, and code 
 
 ---
 
-### Example 7: Decision Memo
+### Example 8: Decision Memo
 
 **Before (Document Slop):**
 * 6-page wall-of-text markdown report with generic headers ("Introduction", "Background", "Strategic Context", "The Road Ahead").
@@ -106,7 +118,7 @@ Demonstrations of transforming AI slop across prose, visual artifacts, and code 
 
 ## 3. Code and Engineering Transformations
 
-### Example 8: Syntax Restatement Comments
+### Example 9: Syntax Restatement Comments
 
 **Before (Code Slop):**
 ```python
@@ -136,7 +148,7 @@ def apply_discount(invoice, rate):
 
 ---
 
-### Example 9: Mocked Logic in Production Handler
+### Example 10: Mocked Logic in Production Handler
 
 **Before (Agent Slop):**
 ```python
